@@ -1,0 +1,190 @@
+<mxGraphModel dx="1634" dy="1746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="#FFFFFF" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="system" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontSize=22;fontStyle=1;verticalAlign=top;spacingTop=12;" value="&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;SmartDrive Car Rental System&lt;/font&gt;&lt;/div&gt;" vertex="1">
+      <mxGeometry height="1458" width="1305" x="382" y="35" as="geometry" />
+    </mxCell>
+    <mxCell id="guest" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Guest&lt;/font&gt;" vertex="1">
+      <mxGeometry height="120" width="60" x="200" y="337" as="geometry" />
+    </mxCell>
+    <mxCell id="customer" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Customer&lt;/font&gt;" vertex="1">
+      <mxGeometry height="120" width="50" x="206" y="844" as="geometry" />
+    </mxCell>
+    <mxCell id="admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Admin&lt;/font&gt;" vertex="1">
+      <mxGeometry height="120" width="60" x="1821" y="843" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-register" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Register Customer&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="240" x="500" y="190" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-login" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Login&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="220" x="503" y="357" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-view-cars" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;View Available Cars&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="250" x="485" y="480" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-create-booking" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Create Booking&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="230" x="475" y="660" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-smart-booking" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Use Smart Booking&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Assistant&lt;/font&gt;" vertex="1">
+      <mxGeometry height="90" width="260" x="460" y="850" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-view-my-bookings" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;View My Bookings&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="240" x="465" y="1001" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-cancel" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Cancel Pending Booking&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="280" x="455" y="1268" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-manage-cars" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Manage Cars&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="230" x="1370" y="518" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-manage-bookings" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Manage Bookings&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="250" x="1371" y="855" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-manage-users" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Manage Users&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="230" x="1381" y="1142" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-review" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Review Pending Bookings&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="280" x="1356" y="668" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-approve" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Approve Booking&lt;/font&gt;" vertex="1">
+      <mxGeometry height="70" width="220" x="1078" y="569" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-reject" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Reject Booking&lt;/font&gt;" vertex="1">
+      <mxGeometry height="66" width="220" x="1068" y="859" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-validate-period" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Validate Rental&lt;br&gt;Period&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="240" x="798" y="850" as="geometry" />
+    </mxCell>
+    <mxCell id="uc-calculate-fee" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Calculate Rental Fee&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="240" x="798" y="569" as="geometry" />
+    </mxCell>
+    <mxCell id="g1" edge="1" parent="1" source="guest" style="endArrow=none;html=1;strokeWidth=2;" target="uc-register">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="g2" edge="1" parent="1" source="guest" style="endArrow=none;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc-login">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="c1" edge="1" parent="1" source="customer" style="endArrow=none;html=1;strokeWidth=2;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="uc-view-cars">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="c2" edge="1" parent="1" source="customer" style="endArrow=none;html=1;strokeWidth=2;" target="uc-create-booking">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="c3" edge="1" parent="1" source="customer" style="endArrow=none;html=1;strokeWidth=2;" target="uc-smart-booking">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="c4" edge="1" parent="1" source="customer" style="endArrow=none;html=1;strokeWidth=2;" target="uc-view-my-bookings">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="c5" edge="1" parent="1" source="customer" style="endArrow=none;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc-cancel">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="a1" edge="1" parent="1" source="admin" style="endArrow=none;html=1;strokeWidth=2;exitX=0.25;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc-manage-cars">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1875" y="883" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="a2" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;" target="uc-manage-bookings">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1834" y="890" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="a3" edge="1" parent="1" source="admin" style="endArrow=none;html=1;strokeWidth=2;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc-manage-users">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1875" y="922.411764705882" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="i1" edge="1" parent="1" source="uc-create-booking" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;" target="uc-validate-period" value="">
+      <mxGeometry relative="1" x="0.0052" as="geometry">
+        <mxPoint as="offset" />
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="i2" edge="1" parent="1" source="uc-create-booking" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;" target="uc-calculate-fee" value="">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-17" connectable="0" parent="i2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry relative="1" x="-0.1155" y="-4" as="geometry">
+        <mxPoint x="-1" y="-12" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e1" edge="1" parent="1" source="uc-smart-booking" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;" target="uc-create-booking" value="">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="i3" edge="1" parent="1" source="uc-manage-bookings" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;" target="uc-view-all-bookings" value="">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="i4" edge="1" parent="1" source="uc-manage-bookings" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;" target="uc-review" value="">
+      <mxGeometry relative="1" x="0.0101" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e2" edge="1" parent="1" source="uc-approve" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="uc-review" value="">
+      <mxGeometry relative="1" x="0.0123" as="geometry">
+        <mxPoint as="offset" />
+        <mxPoint x="1287" y="613" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e3" edge="1" parent="1" source="uc-reject" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="uc-review" value="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1309.5625585488087" y="760.6157933253148" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-1" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;" target="uc-view-all-bookings" value="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1837" y="930" as="sourcePoint" />
+        <mxPoint x="1071" y="1407" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="uc-view-all-bookings" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;View All Bookings&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="240" x="1376" y="1013" as="geometry" />
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-18" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry x="778" y="803" as="geometry" />
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-19" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry x="610" y="795" as="geometry">
+        <mxPoint x="5" y="-1" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-20" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry x="1485" y="964" as="geometry">
+        <mxPoint x="16" y="-6" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-21" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry x="1496" y="795" as="geometry" />
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-23" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry x="1350" y="640" as="geometry">
+        <mxPoint x="5" y="-1" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-24" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry x="1351" y="770" as="geometry">
+        <mxPoint x="5" y="-1" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-37" edge="1" parent="1" source="uc-create-booking" style="html=1;dashed=1;endArrow=classicThin;endFill=0;strokeWidth=2;fontSize=16;entryX=0.435;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="uc-view-cars" value="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="599" y="678" as="sourcePoint" />
+        <mxPoint x="775" y="616" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-38" connectable="0" parent="oxRAf1Ha1x0JftjcoXXd-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: oklab(0.845175 0.0000383258 0.0000169277 / 0.1); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+      <mxGeometry relative="1" x="-0.1155" y="-4" as="geometry">
+        <mxPoint x="-1" y="-12" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=18;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Pay for Booking&lt;/font&gt;" vertex="1">
+      <mxGeometry height="80" width="240" x="470" y="1135" as="geometry" />
+    </mxCell>
+    <mxCell id="oxRAf1Ha1x0JftjcoXXd-43" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oxRAf1Ha1x0JftjcoXXd-42">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="260" y="933" as="sourcePoint" />
+        <mxPoint x="334" y="1407" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
