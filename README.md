@@ -20,8 +20,8 @@ The second is the `Smart Booking Assistant`, developed for `Task 2: Innovative S
 
 ## Requirements
 
-- Python `3.8+`
-- macOS, Linux, or Windows
+- Python `3.8.20`
+- Tested on macOS
 - Terminal or command prompt
 - No external packages are required to run the core application
 
@@ -30,13 +30,8 @@ The second is the `Smart Booking Assistant`, developed for `Task 2: Innovative S
 Follow these steps to run the system:
 
 1. Open a terminal.
-2. Move into the project folder:
 
-```bash
-cd Assessment1
-```
-
-3. Start the application:
+2. Start the application:
 
 ```bash
 python3 app.py
@@ -138,7 +133,7 @@ The system includes several core functions that support both customer use and ad
 ## Project Structure
 
 ```text
-Assessment1/
+Project root/
 ├── README.md
 ├── requirements.txt
 ├── app.py
@@ -158,18 +153,18 @@ Assessment1/
 │   └── manual_test_cases.md
 ```
 
-- [README.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/README.md:1): project overview, setup guide, and submission summary
-- [requirements.txt](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/requirements.txt:1): Python package dependency list
-- [app.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/app.py:1): application entry point
-- [cli.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/cli.py:1): menu flow and user interaction
-- [services.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/services.py:1): business logic
-- [repositories.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/repositories.py:1): database operations
-- [models.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/models.py:1): data models
-- [bootstrap.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/bootstrap.py:1): database setup and starter data
-- [database.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/database.py:1): SQLite wrapper
-- [decorators.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/decorators.py:1): decorator utilities
-- [diagrams](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/diagrams:1): editable and exported system diagrams
-- [docs/manual_test_cases.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/manual_test_cases.md:1): detailed manual testing record
+- `README.md`: project overview, setup guide, and submission summary
+- `requirements.txt`: Python package dependency note
+- `app.py`: application entry point
+- `cli.py`: menu flow and user interaction
+- `services.py`: business logic
+- `repositories.py`: database operations
+- `models.py`: data models
+- `bootstrap.py`: database setup and starter data
+- `database.py`: SQLite wrapper
+- `decorators.py`: decorator utilities
+- `diagrams/`: editable and exported system diagrams
+- `docs/manual_test_cases.md`: detailed manual testing record
 
 ## Known Issues
 
@@ -239,7 +234,7 @@ Add insurance? (y/n): y
 Booking #5 created. Days: 10, base $1380.00, insurance $200.00, total $1580.00.
 ```
 
-The full manual testing record, including the later admin approval and customer payment steps, is provided in [manual_test_cases.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/manual_test_cases.md:1).
+The full manual testing record, including the later admin approval and customer payment steps, is provided in `docs/manual_test_cases.md`.
 
 ## Note
 
