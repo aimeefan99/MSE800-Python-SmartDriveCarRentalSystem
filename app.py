@@ -20,13 +20,20 @@ Change History:
 """
 # This file is intentionally left simple to avoid import issues when running the app.
 from pathlib import Path
+import sys
 from cli import CarRentalCLI
+
+
+def _project_root() -> Path:
+    """Return the folder that should hold the writable data directory."""
+
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent
+    return Path(__file__).resolve().parent
+
 
 # The main logic is contained in the cli module, and this script simply serves as the entry point to launch the application.
 if __name__ == "__main__":
-    # Get the directory of this script
-    CURRENT_DIR = Path(__file__).resolve().parent 
-    # Construct the path to the database file
-    db_path = CURRENT_DIR / "data" / "car_rental.db" 
-    # Create an instance of the CLI and run it
-    CarRentalCLI(db_path).run() 
+    current_dir = _project_root()
+    db_path = current_dir / "data" / "car_rental.db"
+    CarRentalCLI(db_path).run()

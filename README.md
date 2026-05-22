@@ -155,13 +155,11 @@ Assessment1/
 │   ├── *.drawio
 │   └── *.png
 ├── docs/
-│   ├── Assessment1_SmartDrive_User_and_Technical_Documentation.pdf
-│   ├── Assessment1_SmartDrive_Design_and_Architecture.pdf
-│   ├── Assessment1_Maintenance_and_Support.pdf
 │   └── manual_test_cases.md
 ```
 
 - [README.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/README.md:1): project overview, setup guide, and submission summary
+- [requirements.txt](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/requirements.txt:1): Python package dependency list
 - [app.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/app.py:1): application entry point
 - [cli.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/cli.py:1): menu flow and user interaction
 - [services.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/services.py:1): business logic
@@ -169,12 +167,9 @@ Assessment1/
 - [models.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/models.py:1): data models
 - [bootstrap.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/bootstrap.py:1): database setup and starter data
 - [database.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/database.py:1): SQLite wrapper
-- [requirements.txt](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/requirements.txt:1): Python package dependency list
+- [decorators.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/decorators.py:1): decorator utilities
 - [diagrams](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/diagrams:1): editable and exported system diagrams
 - [docs/manual_test_cases.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/manual_test_cases.md:1): detailed manual testing record
-- [docs/Assessment1_SmartDrive_User_and_Technical_Documentation.docx](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/Assessment1_SmartDrive_User_and_Technical_Documentation.docx:1): main user and technical document
-- [docs/Assessment1_SmartDrive_Design_and_Architecture.pdf](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/Assessment1_SmartDrive_Design_and_Architecture.pdf:1): design and architecture submission document
-- [docs/Assessment1_Maintenance_and_Support.pdf](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/Assessment1_Maintenance_and_Support.pdf:1): maintenance and support submission document
 
 ## Known Issues
 
