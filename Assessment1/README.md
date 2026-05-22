@@ -2,29 +2,47 @@
 
 `SmartDrive Car Rental System` is a command-line car rental project developed for `MSE800 Professional Software Development - Assessment 1`.  
 
+## Developer Information
+
+- Developer: `Fan Fan`
+- Student ID: `270958057`
+- Student Email: `270958057@yoobeestudent.ac.nz`
+- Course: `MSE800 Professional Software Development`
+- Project: `Assessment 1 - SmartDrive Car Rental System`
+
 ## Key Feature
 
-This project includes two key features that are both important to the final system.
+This project covers two major features that together form the complete SmartDrive car rental system.
 
-The first is the `Standard Booking` workflow, developed for `Task 1: Design and Architecture (LO1)`. It covers the main rental process, including viewing available cars, creating bookings, validation, admin review, and payment.
+The first is the `Standard Booking` workflow, developed for `Task 1: Design and Architecture (LO1)`. This feature supports the core rental process, including customer registration and login, viewing available cars, creating a booking, validating rental details, selecting pickup location and insurance, admin review of pending bookings, and customer payment for approved bookings. It represents the main operational flow of the system and provides the essential structure needed for everyday car rental management.
 
-The second is the `Smart Booking Assistant`, developed for `Task 2: Innovative Solutions (LO2)`. It improves the normal booking experience by asking for simple customer preferences and recommending suitable cars before the booking is created.
+The second is the `Smart Booking Assistant`, developed for `Task 2: Innovative Solutions (LO2)`. This feature improves the standard booking process by asking the customer about trip type, passenger count, and booking priority, then recommending suitable cars before the booking is created. It gives the system a more guided and user-friendly experience than a traditional booking workflow, while also highlighting the project's innovative value through a more personalised booking path.
 
 ## Requirements
 
 - Python `3.8+`
 - macOS, Linux, or Windows
 - Terminal or command prompt
+- No external packages are required to run the core application
 
 ## Run the System
 
-Open a terminal in the `Assessment1` folder and run:
+Follow these steps to run the system:
+
+1. Open a terminal.
+2. Move into the project folder:
+
+```bash
+cd Assessment1
+```
+
+3. Start the application:
 
 ```bash
 python3 app.py
 ```
 
-When the program starts, it will:
+When the program starts, it will automatically:
 
 - create the SQLite database if needed
 - create the required tables
@@ -74,13 +92,30 @@ This diagram shows how the three actors, `Guest`, `Customer`, and `Admin`, inter
 It separates the system boundary from the external actors and makes each role's responsibilities easy to see.
 The relationships between use cases also show which functions are part of the normal booking flow and which ones extend or support it.
 
+### Class Diagram
+
+![Class Diagram](diagrams/class_diagram.png)
+
+This diagram presents the main classes involved in the rental workflow, including `User`, `Car`, `Booking`, `RentalQuote`, and the main service classes.
+It shows the key attributes, major methods, and the main associations used in authentication, car recommendation, booking creation, review, and payment.
+
+### Sequence Diagram
+
+![Sequence Diagram](diagrams/sequence_diagram.png)
+
+[Sequence Diagram Source](diagrams/sequence_diagram.drawio)
+
+This sequence diagram focuses on the main interaction flow in the standard booking process.
+It shows how the customer starts a booking, how the booking is created as pending, how the admin reviews it, and how the customer later completes payment for an approved booking.
+It complements the other UML diagrams by showing the order of messages between the main participants instead of only their structure.
+
 ### Standard Booking Activity Diagram
 
 ![Standard Booking Activity Diagram](diagrams/standard_booking_activity_diagram.png)
 
 This diagram describes the standard booking workflow from customer input to admin review and final payment.
 It shows the sequence of activities, decision points, and status changes across the customer, system, and admin roles.
-It represents the baseline booking process developed for `Task 1`, including validation, admin review, and payment completion.
+It represents the baseline booking process developed for `Task 1: Design and Architecture (LO1)`, including validation, admin review, and payment completion.
 
 ### Smart Booking Activity Diagram
 
@@ -102,19 +137,61 @@ The system includes several core functions that support both customer use and ad
 
 ## Project Structure
 
+```text
+Assessment1/
+├── README.md
+├── requirements.txt
+├── app.py
+├── cli.py
+├── models.py
+├── services.py
+├── repositories.py
+├── database.py
+├── bootstrap.py
+├── decorators.py
+├── data/
+│   └── car_rental.db
+├── diagrams/
+│   ├── *.drawio
+│   └── *.png
+├── docs/
+│   ├── Assessment1_SmartDrive_User_and_Technical_Documentation.pdf
+│   ├── Assessment1_SmartDrive_Design_and_Architecture.pdf
+│   ├── Assessment1_Maintenance_and_Support.pdf
+│   └── manual_test_cases.md
+```
+
+- [README.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/README.md:1): project overview, setup guide, and submission summary
 - [app.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/app.py:1): application entry point
 - [cli.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/cli.py:1): menu flow and user interaction
 - [services.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/services.py:1): business logic
 - [repositories.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/repositories.py:1): database operations
 - [models.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/models.py:1): data models
-- [bootstrap.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/bootstrap.py:1): schema creation and seed data
+- [bootstrap.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/bootstrap.py:1): database setup and starter data
 - [database.py](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/database.py:1): SQLite wrapper
+- [requirements.txt](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/requirements.txt:1): Python package dependency list
 - [diagrams](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/diagrams:1): editable and exported system diagrams
+- [docs/manual_test_cases.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/manual_test_cases.md:1): detailed manual testing record
+- [docs/Assessment1_SmartDrive_User_and_Technical_Documentation.docx](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/Assessment1_SmartDrive_User_and_Technical_Documentation.docx:1): main user and technical document
+- [docs/Assessment1_SmartDrive_Design_and_Architecture.pdf](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/Assessment1_SmartDrive_Design_and_Architecture.pdf:1): design and architecture submission document
+- [docs/Assessment1_Maintenance_and_Support.pdf](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/Assessment1_Maintenance_and_Support.pdf:1): maintenance and support submission document
+
+## Known Issues
+
+- The payment step is simplified. It updates booking status to `paid`, but it does not connect to a real payment gateway or produce receipts.
+- A car becomes unavailable as soon as an admin approves the booking. In a larger production system, this rule might be refined further.
+- The system is designed as a terminal application, so it does not include a graphical web or mobile interface.
+
+## Licensing Terms
+
+This project was prepared for academic assessment use in `MSE800 Professional Software Development`.
+It is not released as a commercial product.
+The code and documentation should be treated as coursework material unless the author states otherwise.
 
 ## Test
 
 The system was mainly checked through manual CLI testing.
-One of the most important results is the `Smart Booking Assistant`, because it shows that the system can collect user preferences, recommend suitable cars, create a pending booking, and then continue through the standard review and payment workflow.
+One of the most important results is the `Smart Booking Assistant`, which shows that the system can collect user preferences, recommend suitable cars, create a pending booking, and then continue through the standard review and payment workflow.
 
 Example test result:
 
@@ -137,39 +214,39 @@ Answer a few quick questions and the system will suggest suitable cars.
 2. Family outing
 3. Business travel
 4. Long-distance trip
-Choose the best match: 1
+Choose the best match: 2
 
 2. How many people are travelling?
 1. 1-2 people
 2. 3-5 people
-Choose the best match: 1
+Choose the best match: 2
 
 3. What matters most to you?
 1. Lower price
 2. Newer car
 3. Lower mileage
 4. Longer rental flexibility
-Choose one priority: 1
+Choose one priority: 3
 
 Recommended cars for your trip
-[1] 2021 Suzuki Swift | mileage 36000 | rate $58.00/day | rent 1-5 days | available yes
-[2] 2023 Toyota Corolla Hybrid | mileage 18000 | rate $76.00/day | rent 1-12 days | available yes
-[3] 2024 Mazda 3 | mileage 12000 | rate $88.00/day | rent 1-10 days | available yes
-Choose one of the recommended Car IDs: 1
-Start date (YYYY-MM-DD): 2026-05-05
-End date (YYYY-MM-DD): 2026-05-09
+[5] 2024 Hyundai Tucson | mileage 11000 | rate $112.00/day | rent 2-21 days | available yes
+[8] 2023 Kia Carnival | mileage 15000 | rate $138.00/day | rent 2-14 days | available yes
+[10] 2025 Mercedes-Benz C200 | mileage 5000 | rate $165.00/day | rent 1-14 days | available yes
+Choose one of the recommended Car IDs: 8
+Start date (YYYY-MM-DD): 2025-05-01
+End date (YYYY-MM-DD): 2025-05-10
 Pickup locations
 1. Auckland CBD
 2. Auckland Airport
 3. North Shore
-Choose pickup location: 1
-Add insurance? (y/n): n
-Booking #3 created. Days: 5, base $290.00, insurance $0.00, total $290.00.
+Choose pickup location: 2
+Add insurance? (y/n): y
+Booking #5 created. Days: 10, base $1380.00, insurance $200.00, total $1580.00.
 ```
 
-The full manual testing record, including the later admin approval and customer payment steps, has been organised in [manual_test_cases.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/manual_test_cases.md:1) and will be expanded later in the user document.
+The full manual testing record, including the later admin approval and customer payment steps, is provided in [manual_test_cases.md](/Users/fanfan/Documents/GitHub/MSE800-Assessment/Assessment1/docs/manual_test_cases.md:1).
 
 ## Note
 
 This `README` is a short project summary.  
-The detailed explanation of the system, diagrams, and user guidance will be provided in the separate user document.
+The detailed explanation of the system, diagrams, and user guidance is provided in the separate user document.

@@ -1,9 +1,9 @@
-<mxGraphModel dx="1733" dy="1447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+<mxGraphModel dx="1558" dy="1373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="#ffffff" math="0" shadow="0">
   <root>
     <mxCell id="0" />
     <mxCell id="1" parent="0" />
     <mxCell id="bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7cc;strokeColor=#222222;strokeWidth=2;" value="" vertex="1">
-      <mxGeometry height="1945" width="1180" x="120" y="140" as="geometry" />
+      <mxGeometry height="1838" width="1180" x="120" y="140" as="geometry" />
     </mxCell>
     <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1" value="Activity Diagram for Smart Booking Use Case" vertex="1">
       <mxGeometry height="30" width="860" x="280" y="95" as="geometry" />
@@ -72,10 +72,10 @@
       <mxGeometry height="80" width="230" x="930" y="1610" as="geometry" />
     </mxCell>
     <mxCell id="end" parent="1" style="shape=mxgraph.flowchart.terminator;size=22;fillColor=#ffffff;strokeColor=#222222;strokeWidth=2;" value="" vertex="1">
-      <mxGeometry height="50" width="50" x="1012" y="1890" as="geometry" />
+      <mxGeometry height="50" width="50" x="1016" y="1890" as="geometry" />
     </mxCell>
     <mxCell id="end_inner" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#222222;strokeColor=#222222;" value="" vertex="1">
-      <mxGeometry height="26" width="26" x="1024" y="1902" as="geometry" />
+      <mxGeometry height="26" width="26" x="1028" y="1902" as="geometry" />
     </mxCell>
     <mxCell id="e1" edge="1" parent="1" source="start" style="endArrow=block;html=1;strokeWidth=2;" target="c1">
       <mxGeometry relative="1" as="geometry" />
@@ -145,7 +145,7 @@
     <mxCell id="e18" edge="1" parent="1" source="s8" style="endArrow=block;html=1;strokeWidth=2;" target="c8">
       <mxGeometry relative="1" as="geometry" />
     </mxCell>
-    <mxCell id="e19" edge="1" parent="1" style="endArrow=block;html=1;strokeWidth=2;">
+    <mxCell id="e19" edge="1" parent="1" style="endArrow=block;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="end">
       <mxGeometry relative="1" as="geometry">
         <mxPoint x="1040" y="1807" as="sourcePoint" />
         <mxPoint x="1040" y="1889" as="targetPoint" />
